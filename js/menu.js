@@ -14,8 +14,6 @@ $(document).ready(function(){
     
        otentifikasi();
 
-alert($.session.get('id'));
-
     $( "#left-panel" ).panel( "open" );
        
     $( document ).on( "swipeleft swiperight", "#demo-page", function( e ) {
