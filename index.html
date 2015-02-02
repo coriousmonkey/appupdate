@@ -68,6 +68,7 @@ function loaddata(){
             if ((user==masuk[0])&&(pass==masuk[1])){
                 $.session.set('user', user);
                 $.session.set('pass', pass);
+                $.session.set('id',masuk[2]);
                 //redirect-----VVVVVVVVVVVVVVVVVVVVV
                 window.location.replace('menu.html');
             }else{

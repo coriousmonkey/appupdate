@@ -20,6 +20,9 @@ $(document).on("pagebeforeshow","#demo-page",function(){ // When entering pagetw
 });
 
 $(document).ready(function() {
+    
+    alert('id');
+    
     $( document ).on( "swipeleft swiperight", "#demo-page", function( e ) {
         if ( $.mobile.activePage.jqmData( "panel" ) !== "open" ) {
             if ( e.type === "swiperight" ) {
