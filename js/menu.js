@@ -11,7 +11,10 @@ $(document).on("pagebeforeshow","#demo-page",function(){ // When entering pagetw
 //data-collapsed='false'
 
 $(document).ready(function(){
+    
        otentifikasi();
+
+alert($.session.get('id'));
 
     $( "#left-panel" ).panel( "open" );
        
